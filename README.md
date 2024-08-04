@@ -133,3 +133,30 @@ composer update
 ![Screenshot 2024-08-04 130300](https://github.com/user-attachments/assets/35d8a3dd-657c-4a3c-a3e9-e2f14e65ac14)
 
 
+#### And finally, run the service in the controller of your choice :
+
+```
+    <?php
+
+namespace Infrastructure\Http\Controllers;
+
+use Domain\Services\User\UserService;
+use Infrastructure\Http\Controllers\Controller;
+
+class HomeController extends Controller
+{
+    public function __construct(public UserService $userService){
+
+    }
+
+    public function index()
+    {
+        return view("welcome");
+    }
+
+    public function showUsers()
+    {
+        return $this->userService->all();
+    }
+}
+```
