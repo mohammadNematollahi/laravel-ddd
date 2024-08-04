@@ -86,16 +86,28 @@ composer update
 ![Screenshot 2024-08-03 143141](https://github.com/user-attachments/assets/29469ab2-aee1-4093-bb8f-80f1e02cd289)
 
 
-Application : The application folder is responsible for storing important app applications
+### Application : The application folder is responsible for storing important app applications
 
 ![Screenshot 2024-08-04 122951](https://github.com/user-attachments/assets/da5bee90-52c5-4bc5-aa0e-e3bcf867f357)
 
 
-Domain : The domain folder is responsible for storing project ideas such as: models, repositories, and services.
+### Domain : The domain folder is responsible for storing project ideas such as: models, repositories, and services.
+
 ![Screenshot 2024-08-04 123042](https://github.com/user-attachments/assets/f06525e5-ace8-40de-b27c-e3ddd0f845de)
 
-Infrastructure : The Infrastructure folder is responsible for executing the ideas and the core of the project
+Entities : In this folder we will add the models (or the same ideas or features of our project) 
+
+Repositories : In this folder we hit our elequent relationships, or for other purposes, what elequent does this feature have ? 
+
+Services : In this section, the connection between elequent and the controller is done, which means that we manage the conditions or the things that we used to do in the controllers in this folder
+
+
+### Infrastructure : The Infrastructure folder is responsible for executing the ideas and the core of the project
 
 ![Screenshot 2024-08-04 123121](https://github.com/user-attachments/assets/dc82d3e3-5e87-4fe6-a6dd-f1ad90555102)
 
+
+Repositories : In this folder we run the elequents that we wrote in the DomainRepositories folder
+
+Services : This folder stores your services such as email, image, etc.
 
