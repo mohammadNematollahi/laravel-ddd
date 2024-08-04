@@ -70,7 +70,7 @@ You can use the ddd (domain dirver design) pattern in Laravel 10
 
 ## Things you need to know :
 
-### First of all, I have to say that you should not forget to enter this command to add the vendor file to the project 
+#### First of all, I have to say that you should not forget to enter this command to add the vendor file to the project 
 
 
 ```php
