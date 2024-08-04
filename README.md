@@ -116,8 +116,20 @@ composer update
 
 - #### It's okay to open the project for a better understanding and see a written test sample, which is in the following structure, and you can continue with the same structure:
 
-#### As we said, the Domain/Entities/ folder is for dumping entities or project ideas, don't worry, our same models will be placed in this folder where you can see the user model.
+#### As we said, the folder (Domain/Entities/) is ideas or features of our project, don't worry, our same models will be placed in this folder where you can see the user model.
 
 ![Screenshot 2024-08-04 124913](https://github.com/user-attachments/assets/b96a449b-80ce-4527-a2bb-624f87081b57)
 
-#### 
+#### In order to make the structure better, there is a folder in the Domain/Repositories path to better understand what elequents are written for this feature or model 
+
+![Screenshot 2024-08-04 125038](https://github.com/user-attachments/assets/f578c54d-f190-4722-97f7-149001fd8b54)
+
+- So in order to be able to enforce a rule, it is better to use a class that is located in the Infrastructure/Repositories folder, which holds the elequents folder of each attribute within itself
+
+![Screenshot 2024-08-04 125831](https://github.com/user-attachments/assets/8b4c6ddd-6a57-41be-acbc-8c54640d5580)
+
+#### And finally, for the communication between controllers, elequents, as well as management on data, we have another folder available for this task, which is located in the Domain/Services path. 
+
+![Screenshot 2024-08-04 130300](https://github.com/user-attachments/assets/35d8a3dd-657c-4a3c-a3e9-e2f14e65ac14)
+
+
