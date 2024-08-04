@@ -73,7 +73,7 @@ You can use the ddd (domain dirver design) pattern in Laravel 10
 ### First of all, I have to say that you should not forget to enter this command to add the vendor file to the project 
 
 
-```
+```php
 composer update
 ```
 
@@ -135,8 +135,8 @@ composer update
 
 #### And finally, run the service in the controller of your choice :
 
-```
-    <?php
+```php
+<?php
 
 namespace Infrastructure\Http\Controllers;
 
