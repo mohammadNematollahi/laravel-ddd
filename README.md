@@ -115,3 +115,9 @@ composer update
 # You may be confused !!.
 
 - #### It's okay to open the project for a better understanding and see a written test sample, which is in the following structure, and you can continue with the same structure:
+
+#### As we said, the DomainEntities folder is for dumping entities or project ideas, don't worry, our same models will be placed in this folder where you can see the user model.
+
+![Screenshot 2024-08-04 124913](https://github.com/user-attachments/assets/b96a449b-80ce-4527-a2bb-624f87081b57)
+
+#### 
