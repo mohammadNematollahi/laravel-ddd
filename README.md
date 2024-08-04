@@ -65,3 +65,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # laravel-ddd
+
+You can use the ddd (domain dirver design) pattern in Laravel 10 
+
+## Things you need to know :
+
+### First of all, I have to say that you should not forget to enter this command to add the vendor file to the project 
+
+
+```
+composer update
+```
+
+# But what does the structure look like ?
+
+
+## Folder structure :
+
+
+![Screenshot 2024-08-03 143141](https://github.com/user-attachments/assets/29469ab2-aee1-4093-bb8f-80f1e02cd289)
