@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         \Application\Console\Commands\DDDProvider::class,
         \Application\Console\Commands\DDDRepository::class,
         \Application\Console\Commands\DDDRequest::class,
+        \Application\Console\Commands\DDDResource::class,
     ];
     /**
      * Define the application's command schedule.
