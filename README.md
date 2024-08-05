@@ -168,11 +168,12 @@ class HomeController extends Controller
   ddd:controller  Create a new controller calss in laravel ddd
   ddd:elequent    Create a new elequent calss for connection with repository in laravel ddd
   ddd:middleware  Create a new middleware calss in laravel ddd
-  ddd:model       Create a new model calss in laravel ddd
+  ddd:model       Create a new model class in laravel ddd
   ddd:provider    Create a new provider calss in laravel ddd
   ddd:repository  Create a new interface for methods elequent in laravel ddd
   ddd:request     Create a new request calss in laravel ddd
-  ddd:service     Create a new srevice calss for controll elequent in laravel ddd
+  ddd:resource    Create a new resource calss in laravel ddd
+  ddd:service     Create a new service calss for controll elequent in laravel ddd
 
 ```
 
