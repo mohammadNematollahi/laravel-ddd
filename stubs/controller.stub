@@ -6,8 +6,7 @@ use Infrastructure\Http\Controllers\Controller;
 
 class {{ class }} extends Controller
 {
-    public function __construct(){
-
-    }
+    public function __construct(/* which do you want service to call */){}
+    
     //
 }
